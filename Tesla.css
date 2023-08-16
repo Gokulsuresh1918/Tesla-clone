@@ -1,0 +1,334 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family:"Roboto,sans-serif,bmwTypeNextWeb,Arial,Helvetica";
+    box-sizing:border-box;
+}
+button:hover{
+    background-color: rgb(205, 197, 197);
+    /* border-color: rgb(0, 0, 0); */
+    cursor: pointer;
+    
+}
+
+.header{
+    background-image: url(images/download\ \(1\).jpeg);
+    background-size: cover;
+    background-position: center;
+   color: #fff;
+   /* position: fixed; */
+}
+ul{
+    display: flex;
+    padding: 16px;
+    list-style-type: none;
+    color: #fff;
+}
+.available{
+    margin-left:30px ;
+    font-size: 16px;
+    word-spacing: 2px;
+}
+.dollar{
+    margin-left: 100px;
+    font-weight:bolder;
+    font-size: 20px;
+  
+}
+.see-details{
+    display: flex;
+    color: #fff;
+    margin-left: 30px;
+}
+nav{
+    display: flex;
+  
+    position: fixed;
+    /* justify-content: space-between; */
+    
+}
+.logo{
+    width: 100px;
+    height:17px;
+    margin-top:10px ;
+    margin-left: 55px;
+
+}
+.nav {
+    /* display: flex; */
+    background-color:transparent;
+   margin-left: 20px;
+    color:rgb(246, 243, 243);
+    padding:7px;
+    /* margin-top: 10px; */
+}
+.topbutton{
+    margin-left: 210px;
+ color: #fff;
+}
+.topbutton button{
+    padding: 10px;
+    margin-left: 8px;
+    border: none;
+    background: transparent;
+    font-size: 19px;
+    transition: 0.7s;
+    color: #070606;
+}
+.topbutton button:hover{
+    background-color: rgb(191, 180, 163);
+    /* transition: 0.8s; */
+}
+.last-nav{
+    margin-left: 240px;
+    margin-top: 10px;
+    
+}
+.firstbgm{
+    background-image:url(images/Homepage-SolarRoof-Desktop-Global.avif);
+    background-size:cover ;
+}
+.Demo{
+    margin-top: 290px;
+    margin-left: 460px;
+    margin-bottom: 170px;
+    border-color: rgb(255, 255, 255);
+    padding: 10px 90px 10px;
+     background-color: transparent;
+    color:rgb(255, 255, 255);
+    font-size: 20px;
+}
+.secondbgm{
+    background-image : url(images/Homepage-Model-3-Desktop-NA.avif);
+     background-size: cover;
+    width: 100%;
+     height: 700px;
+}
+.secondbgm h1{
+    font-size: 45px;
+    padding-top: 90px;
+    padding-left: 550px;
+}
+.secondbgm h5{
+       font-size: 20px;
+    padding-top: 10px;
+    padding-left: 550px;
+    font-weight: lighter;
+}
+.secondbgm h6{
+           font-size: 20px;
+    padding-top: 4px;
+    padding-left: 530px;
+    font-weight: lighter;
+}
+.secondbgm button{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+   margin-top: 410px;
+}
+
+
+
+.thirdbgm{
+    background-image : url(images/Homepage-Model-Y-Global-Desktop.avif);
+     background-size: cover;
+    width: 100%;
+     height: 800px;
+}
+.thirdbgm h1{
+    font-size: 45px;
+    padding-top: 90px;
+    padding-left: 550px;
+}
+.thirdbgm h5{
+       font-size: 20px;
+    padding-top: 10px;
+    padding-left: 550px;
+    font-weight: lighter;
+}
+.thirdbgm h6{
+           font-size: 20px;
+    padding-top: 4px;
+    padding-left: 530px;
+    font-weight: lighter;
+}
+.thirdbgm button{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+   margin-top: 480px;
+}
+
+
+
+
+.fourthbgm{
+    background-image : url(images/Homepage-Model-S-Desktop-LHD-6.22.avif);
+     background-size: cover;
+    width: 100%;
+     height: 800px;
+}
+.fourthbgm h1{
+    font-size: 45px;
+    padding-top: 90px;
+    padding-left: 550px;
+}
+.fourthbgm a{
+   display: flex;
+    color: rgb(0, 0, 0);
+    margin-left: 560px;
+    font-size: 18px;
+    font-weight: lighter;
+    margin-top: 10px;
+}
+.fourthbgm button{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+   margin-top: 480px;
+}
+
+
+.fifthbgm{
+    background-image : url(images/Homepage-Model-X-Desktop-LHD.avif);
+     background-size: cover;
+    width: 100%;
+     height: 800px;
+}
+.fifthbgm h1{
+    font-size: 45px;
+    padding-top: 90px;
+    padding-left: 550px;
+}
+.fifthbgm a{
+    display: flex;
+     color: rgb(0, 0, 0);
+     margin-left: 560px;
+     font-size: 18px;
+     font-weight: lighter;
+     margin-top: 10px;
+ }
+.fifthbgm button{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+   margin-top: 480px;
+}
+
+
+
+.sixthbgm{
+    background-image : url(images/425_HP_SolarPanels_D.avif);
+     background-size: cover;
+    width: 100%;
+     height: 800px;
+}
+.sixthbgm h1{
+    font-size: 45px;
+    padding-top: 90px;
+    padding-left: 520px;
+}
+.sixthbgm a{
+    display: flex;
+     color: rgb(0, 0, 0);
+     margin-left: 530px;
+     font-size: 18px;
+     font-weight: lighter;
+     margin-top: 10px;
+ }
+
+.sixthbgm button{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+   margin-top: 480px;
+}
+
+
+
+.seventhbgm{
+    background-image : url(images/Homepage-SolarRoof-Desktop-Global.avif);
+     background-size: cover;
+    width: 100%;
+     height: 800px;
+}
+.seventhbgm h1{
+    font-size: 45px;
+    padding-top: 90px;
+    padding-left: 510px;
+}
+
+.seventhbgm h6{
+       font-size: 20px;
+    padding-top: 10px;
+    padding-left: 460px;
+    font-weight: lighter;
+}
+.seventhbgm button{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+   margin-top: 480px;
+}
+
+
+
+.eightthbgm{
+    background-image : url(images/Homepage-Powerwall-Desktop.avif);
+     background-size: cover;
+    width: 100%;
+     height: 800px;
+}
+.eightthbgm h1{
+    font-size: 45px;
+    padding-top: 90px;
+    padding-left: 550px;
+}
+.eightthbgm button{
+    width: 250px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+   margin-top: 480px;
+}
+
+
+
+.ninethbgm{
+    background-image : url(images/Homepage-Accessories-Desktop-NA-APAC.avif);
+     background-size: cover;
+    width: 100%;
+     height: 800px;
+}
+.ninethbgm h1{
+    font-size: 45px;
+    padding-top: 90px;
+    padding-left: 550px;
+}
+.ninethbgm button{
+    width: 300px;
+    height: 40px;
+    border-radius: 5px;
+    border: none;
+   margin-top: 500px;
+
+}
+.footer {
+    text-decoration:none ;
+    color: #c3bebe;
+ margin-left: 25%;
+
+ margin-top: 50px;
+}
+.footer a{
+    text-decoration: none;
+    color: antiquewhite;
+    padding-left: 13px;
+}
